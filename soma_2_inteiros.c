@@ -21,5 +21,6 @@ int main(){
   printf("\n             A soma dos números resulta em: %d\n\n", sum(n1, n2));
   printf("~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~\n");
 
+  printf("Fim do programa");
   return 0;
 }
