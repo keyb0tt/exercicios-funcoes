@@ -13,14 +13,15 @@ int main(){
   int n1, n2;
 
   printf("~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~\n\n");
-  printf("          Digite o primeiro número a ser somado: ");
+  printf("           Digite o primeiro número a ser somado: ");
   scanf("%d", &n1);
-  printf("\n          Digite o segundo número a ser somado:  ");
+  printf("\n           Digite o segundo número a ser somado:  ");
   scanf("%d", &n2);
   printf("\n~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~\n");
-  printf("\n             A soma dos números resulta em: %d\n\n", sum(n1, n2));
+  printf("\n              A soma dos números resulta em: %d\n\n", sum(n1, n2));
   printf("~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~\n");
+  printf("\n                      FIM DO PROGRAMA");
+  printf("\n\n~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~\n");
 
-  printf("Fim do programa");
   return 0;
 }
