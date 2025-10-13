@@ -41,7 +41,5 @@ int main(){
     
     printf("\nO Menor número inserido foi %d", menor);
 
-
-
     return 0;
 }
