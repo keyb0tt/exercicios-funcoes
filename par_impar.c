@@ -3,13 +3,11 @@
 #include <stdbool.h>
 
 int parImpar(int num){
-    bool par = false;
-
     if(num % 2 == 0){
-        par = true;
+        return true;
     }
 
-    return par;
+    return false;
 }
 
 int main(){
