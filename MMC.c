@@ -1,7 +1,6 @@
 // Crie uma função que receba dois inteiros e retorne o MMC (mínimo múltiplo comum).
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
 
 int mdcCalc(int n1, int n2){
     int menorN = n1;
