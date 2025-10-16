@@ -4,13 +4,13 @@
 #include <stdbool.h>
 
 int mdcCalc(int n1, int n2){
-    int menorValor = n1;
+    int menorN = n1;
 
     if(n2 < n1){
-        menorValor = n2;
+        menorN = n2;
     }
 
-    for(int i = menorValor; i >= 0; i--){
+    for(int i = menorN; i >= 0; i--){
         if(n1 % i == 0 && n2 % i == 0){
             return i;
         }
@@ -28,7 +28,6 @@ int mmcCalc(int n1, int n2){
 int main(){
     int n1, n2;
 
-    
     for(int i = 1; i <= 2; i++){
         system("clear");
         printf("\n--------------------------------------------------\n");
